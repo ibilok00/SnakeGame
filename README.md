@@ -11,7 +11,6 @@ A simple Snake game implemented in Java using Swing for the graphical user inter
 - [Controls](#controls)
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
@@ -20,7 +19,7 @@ This project is a classic Snake game where the player controls a snake to collec
 ## Features
 
 - Classic Snake gameplay
-- Randomly placed apples and bombs
+- Randomly placed apples(green) and bombs(red)
 - Increasing speed as apples are collected
 - Game over screen displaying the score
 - Colorful snake body
@@ -70,12 +69,14 @@ This project is a classic Snake game where the player controls a snake to collec
   - `RIGHT` - Move the snake right
 
 ## Screenshots
+*Game Start Screen:*
 
 ![Game Start](screenshots/game_start.png)
-*Game Start Screen*
+
+
+*Game Over Screen:*
 
 ![Game Over](screenshots/game_over.png)
-*Game Over Screen*
 
 ## Contributing
 
@@ -87,7 +88,3 @@ Contributions are welcome! If you have any improvements or new features to add, 
 4. Commit your changes (`git commit -m 'Add some feature'`).
 5. Push to the branch (`git push origin feature/your-feature`).
 6. Open a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
